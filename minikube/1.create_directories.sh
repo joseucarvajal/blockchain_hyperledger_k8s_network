@@ -1,0 +1,9 @@
+mkdir organizations
+mkdir scripts
+cd organizations
+mkdir fabric-ca
+cd fabric-ca
+mkdir ordererOrg
+mkdir org1
+mkdir org2
+mkdir org3
