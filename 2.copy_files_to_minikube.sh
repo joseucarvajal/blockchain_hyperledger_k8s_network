@@ -17,3 +17,15 @@ minikube cp data/scripts/updateAnchorPeer.sh /scripts/updateAnchorPeer.sh
 
 #Channel tx config
 minikube cp data/configtx/configtx.yaml /configtx/configtx.yaml
+
+#Chaincode
+minikube cp data/chaincode/basic/packaging/connection.json /chaincode/basic/packaging/connection.json
+minikube cp data/chaincode/basic/packaging/metadata.json /chaincode/basic/packaging/metadata.json
+minikube cp data/chaincode/basic/.dockerignore /chaincode/basic/.dockerignore
+minikube cp data/chaincode/basic/assetTransfer.go /chaincode/basic/assetTransfer.go
+minikube cp data/chaincode/basic/Dockerfile /chaincode/basic/Dockerfile
+minikube cp data/chaincode/basic/go.mod /chaincode/basic/go.mod
+
+#Connection profile
+minikube cp prerequsite/connection-profile/ccp-template.json /connection-profile/ccp-template.json
+minikube cp prerequsite/connection-profile/ccp-template.yaml /connection-profile/ccp-template.yaml
