@@ -14,3 +14,6 @@ minikube cp data/scripts/org1-certs.sh /scripts/org1-certs.sh
 minikube cp data/scripts/org2-certs.sh /scripts/org2-certs.sh
 minikube cp data/scripts/org3-certs.sh /scripts/org3-certs.sh
 minikube cp data/scripts/updateAnchorPeer.sh /scripts/updateAnchorPeer.sh
+
+#Channel tx config
+minikube cp data/configtx/configtx.yaml /configtx/configtx.yaml

@@ -1,5 +1,6 @@
 mkdir organizations
 mkdir scripts
+mkdir configtx
 cd organizations
 mkdir fabric-ca
 cd fabric-ca
