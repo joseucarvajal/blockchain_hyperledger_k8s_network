@@ -1,0 +1,51 @@
+#### Register user
+POST http://localhost:4000/register HTTP/1.1
+content-type: application/json
+
+{
+    "org": "Org1MSP",
+    "userId": "tom"
+}
+
+#### Create asset
+POST http://localhost:4000/createAsset HTTP/1.1
+content-type: application/json
+
+{
+    "org": "Org1MSP",
+    "userId": "tom",
+    "data":{
+        "ID": "assetJose",
+        "color": "blue",
+        "size": 10,
+        "appraisedValue": 500,
+        "owner": "Jose"
+    }
+}
+
+#### Change asset data
+POST http://localhost:4000/updateAsset HTTP/1.1
+content-type: application/json
+
+{
+    "org": "Org1MSP",
+    "userId": "tom",
+    "data":{
+        "ID": "assetJose",
+        "color": "red",
+        "size": 200,
+        "appraisedValue": 700,
+        "owner": "Jose"
+    }
+}
+
+#### Get all assets
+GET http://localhost:4000/getAllAssets
+?org=Org1MSP
+&userId=tom
+
+#### Get asset history
+GET http://localhost:4000/getAssetHistory
+?org=Org1MSP
+&userId=tom
+&id=assetJose
