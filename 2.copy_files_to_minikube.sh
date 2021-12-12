@@ -2,7 +2,7 @@
 minikube cp data/organizations/fabric-ca/ordererOrg/fabric-ca-server-config.yaml /organizations/fabric-ca/ordererOrg/fabric-ca-server-config.yaml
 minikube cp data/organizations/fabric-ca/org1/fabric-ca-server-config.yaml /organizations/fabric-ca/org1/fabric-ca-server-config.yaml
 minikube cp data/organizations/fabric-ca/org2/fabric-ca-server-config.yaml /organizations/fabric-ca/org2/fabric-ca-server-config.yaml
-minikube cp data/organizations/fabric-ca/org2/fabric-ca-server-config.yaml /organizations/fabric-ca/org3/fabric-ca-server-config.yaml
+minikube cp data/organizations/fabric-ca/org3/fabric-ca-server-config.yaml /organizations/fabric-ca/org3/fabric-ca-server-config.yaml
 
 #scripts
 minikube cp data/scripts/ccp.sh /scripts/ccp.sh
